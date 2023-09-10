@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+    height: auto;
+    width: auto;
+    color: white;
+}
+body{
+   background-color:black;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+
+.box{
+    width: 500px;
+    height: 500px;
+    
+    
+    background:url(images/sivakumar3.jpg);
+    background-size: cover;
+    clip-path: polygon(100% 0,95% 50%,50% 100%,5% 50%,0 0);
+    
+}
+.box{
+   margin-left: 463px;
+   margin-top: 50px;
+   
+ 
+}
+.name{
+     text-transform: uppercase;
+     font-size: 36px;
+     margin-top: 200px;
+     font-stretch: 44px;
+     text-shadow: 2px 2px 12px ;
+     margin-left: 8px;
+   
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 20px;
+    
+
+}
+.cse{
+    font-size: 3.5rem;
+}
+.name>h1>.be{
+    text-decoration: overline;
+}
+
+.title{ 
+    text-transform: uppercase;
+    font-size: 70px;
+    /* color: ; */
+    font-family: Arial, Helvetica, sans-serif;}
+  .container>.container>.name{
+    margin-left: 20px;
+  }
+
+  .container>.container>.name>.title{
+    font-size: 50px;
+  }
