@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+    background-color:orangered;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.black{
+    width: 1500px;
+    height: 2000px;
+    background-color: black;
+    border-end-end-radius:180px;
+    border-top-left-radius: 180px;
+    box-shadow: 32PX 32PX  15PX    #985a03;
+    
+}
+
+.orange{
+    width: 1400px;
+    height: 1900px;
+    background-color: orange;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-end-end-radius:150px;
+    border-top-left-radius: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.black>.orange>.heading>h3{
+    font-size: 150px;
+    background-color: black;
+    color: orange;
+    margin-top: 5px;
+   
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 80px;
+
+}
+
+.black>.orange>.heading>select{
+    border: none;
+    margin-top: 190px;
+    margin-left: 60px;
+    font-size: 80px;
+    width: 1250px;
+    height: 190px;
+    font-weight: 600;
+    background-color:black;
+    color: orange;
+    justify-content: center;
+    padding-left: 80px;
+    
+    border-radius: 30px;
+
+}
+
+.black>.orange>.heading>.button{
+    width: 1250px;
+    margin-top: 190px;
+    margin-left: 60px;
+    font-size: 150px;
+    background-color: black;
+    color: orange;
+    border-radius: 30px;
+    box-shadow: 32PX 32PX  15PX    #985a03;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.black>.orange>.heading>.button>button{
+    padding: 30px;
+    width: 850px;
+    height: max-content;
+    padding:65px ;
+    border-radius: 30px;
+    font-size: 80px;
+    color: orange;
+    background-color: black;
+}
+
+
+.black>.orange>.heading>textarea{
+
+    margin-top: 200px;
+    margin-left: 60px;
+
+    margin-right: -20px;
+    height: 720px;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    font-size:80px;
+    border-radius: 22px;
+}
+.black>.orange>#result{
+    background-color: black;
+    width: 1250px;
+    height:450px;
+    margin: 70px;
+    border-radius: 30PX;
+    margin-top: 80PX;
+
+}
+
+
+
+           /* it is the style for the result tag which was designed in js*/
+
+#result{
+    color: white;
+    width: max-width;
+   
+   
+    font-size: 80px;
+}
